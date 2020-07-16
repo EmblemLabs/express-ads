@@ -2,30 +2,30 @@
 	"name": "express-ads",
 	"version": "0.0.4",
 	"main": "eas.js",
-	"description":"Ads distribution and management module for Express",
-	"keywords":[
+	"description": "Ads distribution and management module for Express",
+	"keywords": [
 		"express",
 		"ads",
 		"adsense",
 		"openx",
 		"dfp"
-   	],
-   	"homepage": "https://github.com/mi-g/express-ads",
-   	"bugs": "https://github.com/mi-g/express-ads/issues",
+	],
+	"homepage": "https://github.com/mi-g/express-ads",
+	"bugs": "https://github.com/mi-g/express-ads/issues",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/mi-g/express-ads.git"
 	},
-   	"author":"Michel Gutierrez",
+	"author": "Michel Gutierrez",
 	"contributors": "https://github.com/mi-g/express-ads/graphs/contributors",
-	"license":"MPL-2.0",
+	"license": "MPL-2.0",
 	"dependencies": {
-		"ejs":"^2.3.4",
-		"extend":"^3.0.0",
+		"ejs": "^2.3.4",
+		"extend": "^3.0.0",
 		"request": "^2.67.0",
 		"gm": "^1.21.1",
 		"connect-multiparty": "^2.0.0",
-	    "geoip-lite": "^1.1.6",
-	    "ua-parser": "^0.3.5"
+		"geoip-lite": "^1.1.6",
+		"ua-parser": "^0.3.5"
 	}
 }
