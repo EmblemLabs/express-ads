@@ -46,7 +46,7 @@ module.exports = function(app,config) {
 		debugData: false,
 		debugLiveTemplate: false,
 		auth: function(req,res,next) {
-			console.warn("EAS - admin interface authentication not set");
+			// console.warn("EAS - admin interface authentication not set");
 			next();
 		},
 		rollBacklog: 1000,
